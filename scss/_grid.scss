@@ -1,0 +1,242 @@
+.grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1 {
+    float: none;
+    width: 100%;
+}
+
+@media only screen and (max-width:767px) {
+    .grid-12-small, .grid-11-small, .grid-10-small, .grid-9-small, .grid-8-small, .grid-7-small, .grid-6-small, .grid-5-small, .grid-4-small, .grid-3-small, .grid-2-small, .grid-1-small {
+        float: left;
+        position: relative;
+    }
+    .grid-2-small {
+        width: 20%;
+    }
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width:768px) {    
+    
+    .row {
+        overflow: hidden;
+    }
+    .row:after, .row:before {
+        display: table;
+        content: " ";
+    }
+    
+    /* -------------------------------- 
+    grid system
+    -------------------------------- */
+    .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;      
+    }
+    .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+      float: left;
+    }
+    .grid-12 {
+      width: 100%;
+    }
+    .grid-11 {
+      width: 91.6666%;
+    }
+    .grid-10 {
+      width: 83.3333%;
+    }
+    .grid-9 {
+      width: 75%;
+    }
+    .grid-8 {
+      width: 66.6666%;
+    }
+    .grid-7 {
+      width: 58.3333%;
+    }
+    .grid-6 {
+      width: 50%;
+    }
+    .grid-5 {
+      width: 33.3333%;
+    }
+    .grid-4 {
+      width: 41.6666%;
+    }
+    .grid-3 {
+      width: 25%;
+    }
+    .grid-2 {
+      width: 16.66666667%;
+    }
+    .grid-1 {
+      width: 8.3333%;
+    }
+    
+    .grid-12-percent {
+      width: 100%;
+    }
+    .grid-11-percent {
+      width: 91.6666%;
+    }
+    .grid-10-percent {
+      width: 83.3333%;
+    }
+    .grid-9-percent {
+      width: 75%;
+    }
+    .grid-8-percent {
+      width: 66.6666%;
+    }
+    .grid-7-percent {
+      width: 58.3333%;
+    }
+    .grid-6-percent {
+      width: 50%;
+    }
+    .grid-5-percent {
+      width: 33.3333%;
+    }
+    .grid-4-percent {
+      width: 41.6666%;
+    }
+    .grid-3-percent {
+      width: 25%;
+    }
+    .grid-2-percent {
+      width: 16.66666667%;
+    }
+    .grid-1-percent {
+      width: 8.3333%;
+    }    
+    
+}
+
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width:960px) {
+    
+    
+    .row {
+        overflow: hidden;
+    }
+    .row:after, .row:before {
+        display: table;
+        content: " ";
+    }
+    
+    /* -------------------------------- 
+    grid system
+    -------------------------------- */
+    .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+        padding-right: 15px;
+        padding-left: 15px;
+        position: relative;      
+    }
+    .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+      float: left;
+    }
+    .grid-12 {
+      width: 960px;
+    }
+    .grid-11 {
+      width: 880px;
+    }
+    .grid-10 {
+      width: 800px;
+    }
+    .grid-9 {
+      width: 720px;
+    }
+    .grid-8 {
+      width: 640px;
+    }
+    .grid-7 {
+      width: 560px;
+    }
+    .grid-6 {
+      width: 480px;
+    }
+    .grid-5 {
+      width: 400px;
+    }
+    .grid-4 {
+      width: 320px;
+    }
+    .grid-3 {
+      width: 240px;
+    }
+    .grid-2 {
+      width: 160px;
+    }
+    .grid-1 {
+      width: 80px;
+    }
+    
+    /*.grid-12-percent {
+      width: 960px;
+    }
+    .grid-11-percent {
+      width: 880px;
+    }
+    .grid-10-percent {
+      width: 800px;
+    }
+    .grid-9-percent {
+      width: 720px;
+    }
+    .grid-8-percent {
+      width: 640px;
+    }
+    .grid-7-percent {
+      width: 560px;
+    }
+    .grid-6-percent {
+      width: 50%;
+    }
+    .grid-5-percent {
+      width: 400px;
+    }
+    .grid-4-percent {
+      width: 320px;
+    }
+    .grid-3-percent {
+      width: 240px;
+    }
+    .grid-2-percent {
+      width: 160px;
+    }
+    .grid-1-percent {
+      width: 80px;
+    }*/
+    
+    
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (max-width:960px) {
+    .row {
+        margin: 0 15px;
+    }
+}
+
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width:960px) {
+    .grid-1-offset-1 {
+        margin-left: 80px;
+    }
+    .grid-1-offset-2 {
+        margin-left: 160px;
+    }
+    .grid-1-offset-3 {
+        margin-left: 240px;
+    }
+
+}
+
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (max-width:959px) {
+    .row-push {
+        margin-left: -15px;
+        margin-right: -15px;
+        overflow: hidden;
+    }
+}

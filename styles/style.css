@@ -1,0 +1,2378 @@
+/* -------------------------------- 
+reset
+-------------------------------- */
+/* line 4, ../scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block;
+}
+
+/* line 17, ../scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 21, ../scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../scss/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 33, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../scss/_grid.scss */
+.grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1 {
+  float: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 7, ../scss/_grid.scss */
+  .grid-12-small, .grid-11-small, .grid-10-small, .grid-9-small, .grid-8-small, .grid-7-small, .grid-6-small, .grid-5-small, .grid-4-small, .grid-3-small, .grid-2-small, .grid-1-small {
+    float: left;
+    position: relative;
+  }
+
+  /* line 11, ../scss/_grid.scss */
+  .grid-2-small {
+    width: 20%;
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 19, ../scss/_grid.scss */
+  .row {
+    overflow: hidden;
+  }
+
+  /* line 22, ../scss/_grid.scss */
+  .row:after, .row:before {
+    display: table;
+    content: " ";
+  }
+
+  /* -------------------------------- 
+  grid system
+  -------------------------------- */
+  /* line 30, ../scss/_grid.scss */
+  .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+  }
+
+  /* line 35, ../scss/_grid.scss */
+  .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+    float: left;
+  }
+
+  /* line 38, ../scss/_grid.scss */
+  .grid-12 {
+    width: 100%;
+  }
+
+  /* line 41, ../scss/_grid.scss */
+  .grid-11 {
+    width: 91.6666%;
+  }
+
+  /* line 44, ../scss/_grid.scss */
+  .grid-10 {
+    width: 83.3333%;
+  }
+
+  /* line 47, ../scss/_grid.scss */
+  .grid-9 {
+    width: 75%;
+  }
+
+  /* line 50, ../scss/_grid.scss */
+  .grid-8 {
+    width: 66.6666%;
+  }
+
+  /* line 53, ../scss/_grid.scss */
+  .grid-7 {
+    width: 58.3333%;
+  }
+
+  /* line 56, ../scss/_grid.scss */
+  .grid-6 {
+    width: 50%;
+  }
+
+  /* line 59, ../scss/_grid.scss */
+  .grid-5 {
+    width: 33.3333%;
+  }
+
+  /* line 62, ../scss/_grid.scss */
+  .grid-4 {
+    width: 41.6666%;
+  }
+
+  /* line 65, ../scss/_grid.scss */
+  .grid-3 {
+    width: 25%;
+  }
+
+  /* line 68, ../scss/_grid.scss */
+  .grid-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 71, ../scss/_grid.scss */
+  .grid-1 {
+    width: 8.3333%;
+  }
+
+  /* line 75, ../scss/_grid.scss */
+  .grid-12-percent {
+    width: 100%;
+  }
+
+  /* line 78, ../scss/_grid.scss */
+  .grid-11-percent {
+    width: 91.6666%;
+  }
+
+  /* line 81, ../scss/_grid.scss */
+  .grid-10-percent {
+    width: 83.3333%;
+  }
+
+  /* line 84, ../scss/_grid.scss */
+  .grid-9-percent {
+    width: 75%;
+  }
+
+  /* line 87, ../scss/_grid.scss */
+  .grid-8-percent {
+    width: 66.6666%;
+  }
+
+  /* line 90, ../scss/_grid.scss */
+  .grid-7-percent {
+    width: 58.3333%;
+  }
+
+  /* line 93, ../scss/_grid.scss */
+  .grid-6-percent {
+    width: 50%;
+  }
+
+  /* line 96, ../scss/_grid.scss */
+  .grid-5-percent {
+    width: 33.3333%;
+  }
+
+  /* line 99, ../scss/_grid.scss */
+  .grid-4-percent {
+    width: 41.6666%;
+  }
+
+  /* line 102, ../scss/_grid.scss */
+  .grid-3-percent {
+    width: 25%;
+  }
+
+  /* line 105, ../scss/_grid.scss */
+  .grid-2-percent {
+    width: 16.66666667%;
+  }
+
+  /* line 108, ../scss/_grid.scss */
+  .grid-1-percent {
+    width: 8.3333%;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 118, ../scss/_grid.scss */
+  .row {
+    overflow: hidden;
+  }
+
+  /* line 121, ../scss/_grid.scss */
+  .row:after, .row:before {
+    display: table;
+    content: " ";
+  }
+
+  /* -------------------------------- 
+  grid system
+  -------------------------------- */
+  /* line 129, ../scss/_grid.scss */
+  .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+  }
+
+  /* line 134, ../scss/_grid.scss */
+  .grid-12, .grid-11, .grid-10, .grid-9, .grid-8, .grid-7, .grid-6, .grid-5, .grid-4, .grid-3, .grid-2, .grid-1, .grid-12-percent, .grid-11-percent, .grid-10-percent, .grid-9-percent, .grid-8-percent, .grid-7-percent, .grid-6-percent, .grid-5-percent, .grid-4-percent, .grid-3-percent, .grid-2-percent, .grid-1-percent {
+    float: left;
+  }
+
+  /* line 137, ../scss/_grid.scss */
+  .grid-12 {
+    width: 960px;
+  }
+
+  /* line 140, ../scss/_grid.scss */
+  .grid-11 {
+    width: 880px;
+  }
+
+  /* line 143, ../scss/_grid.scss */
+  .grid-10 {
+    width: 800px;
+  }
+
+  /* line 146, ../scss/_grid.scss */
+  .grid-9 {
+    width: 720px;
+  }
+
+  /* line 149, ../scss/_grid.scss */
+  .grid-8 {
+    width: 640px;
+  }
+
+  /* line 152, ../scss/_grid.scss */
+  .grid-7 {
+    width: 560px;
+  }
+
+  /* line 155, ../scss/_grid.scss */
+  .grid-6 {
+    width: 480px;
+  }
+
+  /* line 158, ../scss/_grid.scss */
+  .grid-5 {
+    width: 400px;
+  }
+
+  /* line 161, ../scss/_grid.scss */
+  .grid-4 {
+    width: 320px;
+  }
+
+  /* line 164, ../scss/_grid.scss */
+  .grid-3 {
+    width: 240px;
+  }
+
+  /* line 167, ../scss/_grid.scss */
+  .grid-2 {
+    width: 160px;
+  }
+
+  /* line 170, ../scss/_grid.scss */
+  .grid-1 {
+    width: 80px;
+  }
+
+  /*.grid-12-percent {
+    width: 960px;
+  }
+  .grid-11-percent {
+    width: 880px;
+  }
+  .grid-10-percent {
+    width: 800px;
+  }
+  .grid-9-percent {
+    width: 720px;
+  }
+  .grid-8-percent {
+    width: 640px;
+  }
+  .grid-7-percent {
+    width: 560px;
+  }
+  .grid-6-percent {
+    width: 50%;
+  }
+  .grid-5-percent {
+    width: 400px;
+  }
+  .grid-4-percent {
+    width: 320px;
+  }
+  .grid-3-percent {
+    width: 240px;
+  }
+  .grid-2-percent {
+    width: 160px;
+  }
+  .grid-1-percent {
+    width: 80px;
+  }*/
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (max-width: 960px) {
+  /* line 216, ../scss/_grid.scss */
+  .row {
+    margin: 0 15px;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 223, ../scss/_grid.scss */
+  .grid-1-offset-1 {
+    margin-left: 80px;
+  }
+
+  /* line 226, ../scss/_grid.scss */
+  .grid-1-offset-2 {
+    margin-left: 160px;
+  }
+
+  /* line 229, ../scss/_grid.scss */
+  .grid-1-offset-3 {
+    margin-left: 240px;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (max-width: 959px) {
+  /* line 237, ../scss/_grid.scss */
+  .row-push {
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow: hidden;
+  }
+}
+@font-face {
+  font-family: "the_wanderer_icons";
+  src: url("../fonts/the_wanderer_icons.eot");
+  src: url("../fonts/the_wanderer_icons.eot?#iefix") format("embedded-opentype"), url("../fonts/the_wanderer_icons.woff") format("woff"), url("../fonts/the_wanderer_icons.ttf") format("truetype"), url("../fonts/the_wanderer_icons.svg#the_wanderer_icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 15, ../scss/_page-style.scss */
+[data-icon]:before {
+  font-family: "the_wanderer_icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, ../scss/_page-style.scss */
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "the_wanderer_icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, ../scss/_page-style.scss */
+.icon-behance:before {
+  content: "\61";
+}
+
+/* line 44, ../scss/_page-style.scss */
+.icon-dribbble:before {
+  content: "\62";
+}
+
+/* line 47, ../scss/_page-style.scss */
+.icon-linkedin:before {
+  content: "\63";
+}
+
+/* line 50, ../scss/_page-style.scss */
+.icon-mouse:before {
+  content: "\64";
+}
+
+/* line 53, ../scss/_page-style.scss */
+.icon-pencil:before {
+  content: "\65";
+}
+
+/* line 56, ../scss/_page-style.scss */
+.icon-arrow:before {
+  content: "\66";
+}
+
+/* line 59, ../scss/_page-style.scss */
+.icon-twitter:before {
+  content: "\67";
+}
+
+/* line 62, ../scss/_page-style.scss */
+.icon-video:before {
+  content: "\68";
+}
+
+/* line 65, ../scss/_page-style.scss */
+.icon-web:before {
+  content: "\69";
+}
+
+/* line 68, ../scss/_page-style.scss */
+.icon-zoom-in:before {
+  content: "\6a";
+}
+
+/* line 71, ../scss/_page-style.scss */
+.icon-youtube:before {
+  content: "\6b";
+}
+
+/* line 74, ../scss/_page-style.scss */
+.icon-astro-man:before {
+  content: "\6c";
+}
+
+/* -------------------------------- 
+base
+-------------------------------- */
+/* line 81, ../scss/_page-style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 87, ../scss/_page-style.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 91, ../scss/_page-style.scss */
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #3e454c;
+  background-color: #ffffff;
+}
+
+/* line 97, ../scss/_page-style.scss */
+body::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 103, ../scss/_page-style.scss */
+a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+/* line 107, ../scss/_page-style.scss */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 112, ../scss/_page-style.scss */
+img, embed, object, video, svg {
+  max-width: 100%;
+}
+
+/* line 116, ../scss/_page-style.scss */
+input, textarea, button {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  color: #383838;
+  border-radius: 0;
+}
+
+/* line 129, ../scss/_page-style.scss */
+input:focus, textarea:focus {
+  outline: none;
+}
+
+/* line 133, ../scss/_page-style.scss */
+.no-touch input[type=submit]:hover {
+  cursor: pointer;
+}
+
+/* line 137, ../scss/_page-style.scss */
+input[type="search"]::-ms-clear {
+  display: none;
+}
+
+/* line 141, ../scss/_page-style.scss */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* line 148, ../scss/_page-style.scss */
+input[type="text"], .input-text, textarea, .input-textarea {
+  border: 3px solid #b5845e;
+  padding: 4px 6px;
+  font-size: .9em;
+  width: 100%;
+}
+
+/* line 154, ../scss/_page-style.scss */
+input[type="text"]:focus, .input-text:focus, textarea:focus, .input-textarea:focus {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 157, ../scss/_page-style.scss */
+input[type="text"], .input-text {
+  min-height: 36px;
+}
+
+/* line 160, ../scss/_page-style.scss */
+textarea, .input-textarea {
+  min-height: 165px;
+  resize: none;
+}
+
+/* line 164, ../scss/_page-style.scss */
+button, .button {
+  background: #b5845e;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  color: white;
+  padding: 8px 8px;
+  border: none;
+  text-shadow: none;
+  font-weight: 700;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*common classes*/
+/* line 180, ../scss/_page-style.scss */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* line 184, ../scss/_page-style.scss */
+.align-left {
+  text-align: left;
+}
+
+/* line 185, ../scss/_page-style.scss */
+.align-right {
+  text-align: right;
+}
+
+/* line 186, ../scss/_page-style.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 188, ../scss/_page-style.scss */
+body {
+  font-family: Open sans, Arial, sans-serif;
+}
+
+/* line 192, ../scss/_page-style.scss */
+* {
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -ms-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  transition-duration: .3s;
+}
+
+/* -------------------------------- 
+typo
+-------------------------------- */
+/* line 203, ../scss/_page-style.scss */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #383838;
+}
+
+/* -------------------------------- 
+page 
+-------------------------------- */
+/* ----------- layout ---------- */
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 216, ../scss/_page-style.scss */
+  .row-inner {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    /*margin-top: 35px;*/
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 226, ../scss/_page-style.scss */
+  .form-wrap .inline .input-wrap {
+    width: 50%;
+    float: left;
+  }
+}
+/* ----------- header ---------- */
+/* line 233, ../scss/_page-style.scss */
+.header {
+  width: 100%;
+  z-index: 99;
+  padding: 10px 0;
+  position: absolute;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 243, ../scss/_page-style.scss */
+.header.sticky-scrolling {
+  position: fixed;
+  top: 0 !important;
+}
+
+/* line 247, ../scss/_page-style.scss */
+.header.sticky-scrolling {
+  background-color: white;
+}
+
+/* line 250, ../scss/_page-style.scss */
+.header.menu-is-open {
+  background-color: rgba(201, 144, 101, 0.96);
+  height: 100%;
+  position: fixed;
+}
+
+/* line 255, ../scss/_page-style.scss */
+.nav {
+  display: none;
+}
+
+/* line 258, ../scss/_page-style.scss */
+.header.menu-is-open .nav {
+  display: block;
+}
+
+/* line 262, ../scss/_page-style.scss */
+.nav-trigger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #b5845e;
+  padding: 15px;
+  max-height: 48px;
+  z-index: 9999999;
+}
+
+/* line 271, ../scss/_page-style.scss */
+.nav-trigger span {
+  width: 30px;
+  height: 2px;
+  margin-bottom: 5px;
+  display: block;
+  background: white;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 281, ../scss/_page-style.scss */
+  .nav {
+    display: block;
+  }
+
+  /* line 284, ../scss/_page-style.scss */
+  .nav-trigger, .nav-trigger span {
+    display: none;
+  }
+}
+/* --- logo --- */
+/* line 290, ../scss/_page-style.scss */
+.logo {
+  display: block;
+  text-indent: -9999px;
+  width: 80px;
+  height: 80px;
+  background: url(../img/logo.svg);
+  margin: 10px auto;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 301, ../scss/_page-style.scss */
+  .logo {
+    margin: 0;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+}
+/* --- /logo --- */
+/* --- navigation --- */
+/* line 312, ../scss/_page-style.scss */
+ul#main-nav {
+  text-align: center;
+}
+
+/* line 315, ../scss/_page-style.scss */
+ul#main-nav li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 324, ../scss/_page-style.scss */
+ul#main-nav li a {
+  color: rgba(0, 0, 0, 0.7);
+  padding: 15px 5px;
+  display: inline-block;
+}
+
+/* line 329, ../scss/_page-style.scss */
+ul#main-nav li a:hover {
+  color: black;
+}
+
+/* line 332, ../scss/_page-style.scss */
+ul#main-nav::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* ----------- screens equal 568 and above ---------- */
+@media only screen and (min-width: 568px) {
+  /* line 340, ../scss/_page-style.scss */
+  ul#main-nav li a {
+    padding: 18px 10px;
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 347, ../scss/_page-style.scss */
+  ul#main-nav li {
+    display: inline-block;
+  }
+
+  /* line 350, ../scss/_page-style.scss */
+  ul#main-nav {
+    text-align: left;
+    float: right;
+  }
+
+  /* line 354, ../scss/_page-style.scss */
+  ul#main-nav li a {
+    padding: 18px 15px;
+    display: inline-block;
+  }
+}
+/* ----------- screens equal 767 and belo ---------- */
+@media only screen and (max-width: 767px) {
+  /* line 362, ../scss/_page-style.scss */
+  ul#main-nav li a {
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  /* line 366, ../scss/_page-style.scss */
+  .header.menu-is-open .nav {
+    margin-top: 30px;
+  }
+}
+/* --- /navigation --- */
+/* ----------- footer ---------- */
+/* line 377, ../scss/_page-style.scss */
+section {
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+/* line 381, ../scss/_page-style.scss */
+section h4 {
+  color: #e1c184;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* line 388, ../scss/_page-style.scss */
+section.odd {
+  background: #e5eaee;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 394, ../scss/_page-style.scss */
+  section {
+    padding: 100px 0;
+  }
+}
+/* ----------- intro section ---------- */
+/* line 400, ../scss/_page-style.scss */
+#intro {
+  background: url(../img/hero-background.jpg) top center no-repeat;
+  min-height: 450px;
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+
+/* line 408, ../scss/_page-style.scss */
+.hero-wrap {
+  padding: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 50px;
+}
+
+/* line 414, ../scss/_page-style.scss */
+.hello {
+  border: 5px solid white;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  letter-spacing: 5px;
+}
+
+/* line 426, ../scss/_page-style.scss */
+.sub {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  letter-spacing: 2px;
+  line-height: 140%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 438, ../scss/_page-style.scss */
+  .hello {
+    border: 10px solid white;
+    width: 689px;
+    font-size: 3.75em;
+    font-weight: 700;
+  }
+
+  /* line 444, ../scss/_page-style.scss */
+  .hero-wrap {
+    padding: 0;
+  }
+}
+/* ----------- /intro section ---------- */
+/* ----------- about section ---------- */
+/* line 454, ../scss/_page-style.scss */
+#about h3 {
+  font-size: 2em;
+}
+
+/* line 457, ../scss/_page-style.scss */
+#tabs-container {
+  margin-top: 30px;
+}
+
+/* line 460, ../scss/_page-style.scss */
+.tabs-menu {
+  height: 30px;
+  clear: both;
+  display: table;
+  margin: 0 auto;
+}
+
+/* line 467, ../scss/_page-style.scss */
+.tabs-menu li {
+  /*height: 30px;*/
+  /*line-height: 30px;*/
+  border: none;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 477, ../scss/_page-style.scss */
+.tabs-menu li.current {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 481, ../scss/_page-style.scss */
+.tabs-menu li.current .icon {
+  font-size: 2.5em;
+}
+
+/* line 485, ../scss/_page-style.scss */
+.tabs-menu li a {
+  padding: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  background: #e5eaee;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: table;
+  margin-right: 10px;
+}
+
+/* line 498, ../scss/_page-style.scss */
+.tabs-menu li a .icon {
+  color: #c99065;
+  font-size: 1.4em;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* line 506, ../scss/_page-style.scss */
+.tabs-menu .current a {
+  color: #2e7da3;
+  width: 80px;
+  height: 80px;
+}
+
+/* line 512, ../scss/_page-style.scss */
+.tab {
+  margin-bottom: 20px;
+  width: auto;
+}
+
+/* line 517, ../scss/_page-style.scss */
+.tab-content {
+  width: 100%;
+  padding: 20px;
+  display: none;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+/* line 524, ../scss/_page-style.scss */
+.tab-content p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: center;
+}
+
+/* line 530, ../scss/_page-style.scss */
+.tab-content p strong {
+  font-weight: 700;
+}
+
+/* line 534, ../scss/_page-style.scss */
+#tab-1 {
+  display: block;
+}
+
+/* line 537, ../scss/_page-style.scss */
+.animate-me {
+  width: 80%;
+  -moz-animation: change .1s ease-out;
+  -webkit-animation: change .1s ease-out;
+}
+
+/* --- communication keyframes --- */
+@keyframes change {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+@-webkit-keyframes change {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+@-moz-keyframes change {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+@-o-keyframes change {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 200px;
+    height: 200px;
+  }
+}
+/* ----------- screens equal 568 and above ---------- */
+@media only screen and (min-width: 568px) {
+  /* line 563, ../scss/_page-style.scss */
+  .tabs-menu li a {
+    margin-right: 15px;
+    width: 80px;
+    height: 80px;
+  }
+
+  /* line 568, ../scss/_page-style.scss */
+  .tabs-menu .current a {
+    width: 160px;
+    height: 160px;
+  }
+
+  /* line 572, ../scss/_page-style.scss */
+  .tabs-menu li a .icon {
+    font-size: 2em;
+  }
+
+  /* line 575, ../scss/_page-style.scss */
+  .tabs-menu li.current .icon {
+    font-size: 4em;
+  }
+
+  /* line 578, ../scss/_page-style.scss */
+  .tab-content p {
+    font-size: 1.2em;
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 586, ../scss/_page-style.scss */
+  .tabs-menu li a {
+    margin-right: 25px;
+    width: 100px;
+    height: 100px;
+  }
+
+  /* line 591, ../scss/_page-style.scss */
+  .tabs-menu .current a {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* line 595, ../scss/_page-style.scss */
+  .tab-content {
+    width: 85%;
+    margin-top: 30px;
+  }
+
+  /* line 599, ../scss/_page-style.scss */
+  .tab-content p {
+    font-size: 1.5em;
+  }
+
+  /* line 602, ../scss/_page-style.scss */
+  .tabs-menu li.current .icon {
+    font-size: 6em;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 610, ../scss/_page-style.scss */
+  .tabs-menu li a {
+    margin-right: 45px;
+  }
+
+  /* line 613, ../scss/_page-style.scss */
+  .tabs-menu li a .icon {
+    font-size: 3em;
+  }
+}
+/* -------------------------------- 
+skills bar
+-------------------------------- */
+/* line 622, ../scss/_page-style.scss */
+.skills {
+  margin-top: 60px;
+  clear: both;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+/* line 628, ../scss/_page-style.scss */
+.skill-bar {
+  width: 100%;
+  height: 8px;
+  position: relative;
+  background: #e5eaee;
+  margin: 5px auto 25px auto;
+}
+
+/* line 635, ../scss/_page-style.scss */
+.skill-name {
+  /*position: absolute;*/
+  /*display: none;*/
+  font-size: 0.9em;
+  color: #999999;
+  letter-spacing: 1px;
+}
+
+/* line 642, ../scss/_page-style.scss */
+.animate {
+  position: absolute;
+  background-color: #b5845e;
+  height: 8px;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 650, ../scss/_page-style.scss */
+  .skills {
+    margin-top: 120px;
+    clear: both;
+    margin-top: 120px;
+  }
+}
+/* line 657, ../scss/_page-style.scss */
+.communication.animate {
+  width: 80%;
+  -moz-animation: communication 3s ease-out;
+  -webkit-animation: communication 3s ease-out;
+}
+
+/* line 662, ../scss/_page-style.scss */
+.learning.animate {
+  width: 90%;
+  -moz-animation: learning 3s ease-out;
+  -webkit-animation: learning 3s ease-out;
+}
+
+/* line 667, ../scss/_page-style.scss */
+.planning.animate {
+  width: 70%;
+  -moz-animation: planning 3s ease-out;
+  -webkit-animation: planning 3s ease-out;
+}
+
+/* line 672, ../scss/_page-style.scss */
+.ux.animate {
+  width: 99%;
+  -moz-animation: ux 3s ease-out;
+  -webkit-animation: ux 3s ease-out;
+}
+
+/* line 677, ../scss/_page-style.scss */
+.organization.animate {
+  width: 70%;
+  -moz-animation: organization 3s ease-out;
+  -webkit-animation: organization 3s ease-out;
+}
+
+/* line 682, ../scss/_page-style.scss */
+.teaching.animate {
+  width: 55%;
+  -moz-animation: teaching 3s ease-out;
+  -webkit-animation: teaching 3s ease-out;
+}
+
+/* line 687, ../scss/_page-style.scss */
+.visual-design.animate {
+  width: 80%;
+  -moz-animation: visual-design 3s ease-out;
+  -webkit-animation: visual-design 3s ease-out;
+}
+
+/* line 692, ../scss/_page-style.scss */
+.programming.animate {
+  width: 90%;
+  -moz-animation: programming 3s ease-out;
+  -webkit-animation: programming 3s ease-out;
+}
+
+/* -------------------------------- 
+@keyframes
+-------------------------------- */
+/* --- communication keyframes --- */
+@keyframes communication {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes communication {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes communication {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes communication {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+/* --- end of communication keyframes --- */
+/* --- learning keyframes --- */
+@keyframes learning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes learning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-moz-keyframes learning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes learning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+/* --- end of learning keyframes --- */
+/* --- planning keyframes --- */
+@keyframes planning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes planning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes planning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes planning {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+/* --- end of planning keyframes --- */
+/* --- ux keyframes --- */
+@keyframes ux {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 99%;
+  }
+}
+@-webkit-keyframes ux {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 99%;
+  }
+}
+@-moz-keyframes ux {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 99%;
+  }
+}
+@-o-keyframes ux {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 99%;
+  }
+}
+/* --- end of ux keyframes --- */
+/* --- organization keyframes --- */
+@keyframes organization {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-webkit-keyframes organization {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-moz-keyframes organization {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+@-o-keyframes organization {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 70%;
+  }
+}
+/* --- end of organization keyframes --- */
+/* --- planning keyframes --- */
+@keyframes teaching {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-webkit-keyframes teaching {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-moz-keyframes teaching {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+@-o-keyframes teaching {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 55%;
+  }
+}
+/* --- end of planning keyframes --- */
+/* --- visual-design keyframes --- */
+@keyframes visual-design {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-webkit-keyframes visual-design {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-moz-keyframes visual-design {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+@-o-keyframes visual-design {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%;
+  }
+}
+/* --- end of visual-design keyframes --- */
+/* --- programming keyframes --- */
+@keyframes programming {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-webkit-keyframes programming {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-moz-keyframes programming {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+@-o-keyframes programming {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%;
+  }
+}
+/* --- end of programming keyframes --- */
+/* ----------- /about section ---------- */
+/* ----------- work section ---------- */
+/* line 860, ../scss/_page-style.scss */
+#work {
+  background: #e5eaee;
+}
+
+/* line 864, ../scss/_page-style.scss */
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px 0 15px;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+/* line 874, ../scss/_page-style.scss */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  min-width: 50%;
+  max-width: 50%;
+  width: 25%;
+  background: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  height: auto;
+}
+
+/* line 888, ../scss/_page-style.scss */
+.grid figure img {
+  position: relative;
+  display: block;
+  	/*min-height: 100%;
+  	max-width: 100%;
+      min-width: 100%;*/
+  opacity: 0.8;
+}
+
+/* line 896, ../scss/_page-style.scss */
+.grid figure
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 906, ../scss/_page-style.scss */
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+/* line 911, ../scss/_page-style.scss */
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+/* line 922, ../scss/_page-style.scss */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+/* line 930, ../scss/_page-style.scss */
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+/* line 935, ../scss/_page-style.scss */
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+/* line 939, ../scss/_page-style.scss */
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+/* line 944, ../scss/_page-style.scss */
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/* line 950, ../scss/_page-style.scss */
+figure.effect-zoe figcaption {
+  top: 0;
+  bottom: auto;
+  padding: 1em;
+  height: 3.75em;
+  background: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+/* line 966, ../scss/_page-style.scss */
+figure.effect-zoe h2 {
+  /*float: left;*/
+}
+
+/* line 970, ../scss/_page-style.scss */
+figure.effect-zoe p.icon-links a {
+  /*float: right;*/
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+
+/* line 976, ../scss/_page-style.scss */
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+
+/* line 981, ../scss/_page-style.scss */
+figure.effect-zoe .icon-wrap {
+  position: absolute;
+  top: 8em;
+  left: 10%;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 1.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+  /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+/* line 995, ../scss/_page-style.scss */
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -200%, 0);
+  transform: translate3d(0, -200%, 0);
+}
+
+/* line 1003, ../scss/_page-style.scss */
+figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: 'feathericons';
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 1012, ../scss/_page-style.scss */
+.icon-eye::before {
+  content: '\e000';
+}
+
+/* line 1016, ../scss/_page-style.scss */
+.icon-paper-clip::before {
+  content: '\e001';
+}
+
+/* line 1020, ../scss/_page-style.scss */
+.icon-heart::before {
+  content: '\e024';
+}
+
+/* line 1024, ../scss/_page-style.scss */
+figure.effect-zoe h2 {
+  display: inline-block;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* line 1030, ../scss/_page-style.scss */
+figure.effect-zoe:hover .icon-wrap {
+  opacity: 1;
+}
+
+/* line 1033, ../scss/_page-style.scss */
+figure.effect-zoe:hover {
+  background: #b5845e;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1038, ../scss/_page-style.scss */
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 1044, ../scss/_page-style.scss */
+figure.effect-zoe:hover .icon-wrap {
+  -webkit-transform: translate3d(0, -160%, 0);
+  transform: translate3d(0, -160%, 0);
+}
+
+/* line 1049, ../scss/_page-style.scss */
+figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+/* line 1054, ../scss/_page-style.scss */
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* line 1059, ../scss/_page-style.scss */
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+/* line 1064, ../scss/_page-style.scss */
+figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* ----------- screens equal 568 and above ---------- */
+@media only screen and (min-width: 568px) {
+  /* Common style */
+  /* line 1072, ../scss/_page-style.scss */
+  .grid figure {
+    min-width: 33.3333%;
+    max-width: 33.3333%;
+    max-height: auto;
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* Common style */
+  /* line 1082, ../scss/_page-style.scss */
+  .grid figure {
+    min-width: 25%;
+    max-width: 25%;
+    max-height: auto;
+  }
+
+  /* line 1087, ../scss/_page-style.scss */
+  figure.effect-zoe figcaption {
+    font-size: 1.6em;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* Common style */
+  /* line 1095, ../scss/_page-style.scss */
+  .grid figure {
+    min-width: 240px;
+    max-width: 240px;
+    max-height: 135px;
+  }
+}
+/* ----------- clients section ---------- */
+/* line 1104, ../scss/_page-style.scss */
+#clients {
+  position: relative;
+}
+
+/* -------------------------------- 
+testimonial slider
+-------------------------------- */
+/* line 1112, ../scss/_page-style.scss */
+#testimonial-slider {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: background-color 0.6s ease-in-out 0s;
+  transition: background-color 0.6s ease-in-out 0s;
+}
+
+/* line 1120, ../scss/_page-style.scss */
+#pages {
+  padding: 20px 60px;
+  width: 100% !important;
+  min-height: auto;
+}
+
+/* line 1126, ../scss/_page-style.scss */
+#pages li {
+  right: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  display: inline-block;
+  visibility: hidden;
+  position: relative;
+  display: none;
+  -moz-animation: show-content .3s ease-in;
+  -webkit-animation: show-content .3s ease-in;
+}
+
+/* line 1139, ../scss/_page-style.scss */
+#pages .selected {
+  opacity: 1;
+  visibility: visible;
+  display: initial;
+}
+
+/* line 1145, ../scss/_page-style.scss */
+#pages .selected {
+  -moz-animation: show-content .3s ease-out;
+  -webkit-animation: show-content .3s ease-out;
+}
+
+/* --- programming keyframes --- */
+@keyframes show-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes show-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes show-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes show-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* --- end of programming keyframes --- */
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1171, ../scss/_page-style.scss */
+  #pages {
+    padding: 33px 80px 0 80px;
+    width: 100% !important;
+    min-height: 310px;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 1181, ../scss/_page-style.scss */
+  #pages {
+    padding: 50px 120px 0 120px;
+    width: 100% !important;
+    min-height: 310px;
+  }
+}
+/* line 1190, ../scss/_page-style.scss */
+.arrow {
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  width: 25px;
+  height: 40px;
+  padding: 20px;
+  /* Arrow size */
+  margin: auto 0;
+  z-index: 1000;
+  cursor: pointer;
+  border: solid transparent;
+  border-width: 0 0 2rem 2rem;
+  box-shadow: 1px -1px 0 1px #c99065 inset;
+  -webkit-box-shadow: 2px -2px #c99065 inset;
+  -webkit-transition: all 0.25s ease-in-out 0s;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+/*.arrow:hover {
+  box-shadow: 2px -2px 0 2px white inset;
+  -webkit-box-shadow: 4px -4px white inset;
+}*/
+/* line 1214, ../scss/_page-style.scss */
+#prev {
+  left: -8px;
+  -webkit-transform: rotate(45deg) scale(0.8);
+  transform: rotate(45deg) scale(0.8);
+}
+
+/* line 1220, ../scss/_page-style.scss */
+#next {
+  right: -8px;
+  -webkit-transform: rotate(225deg) scale(0.8);
+  transform: rotate(225deg) scale(0.8);
+}
+
+/* line 1226, ../scss/_page-style.scss */
+#next:hover {
+  -webkit-transform: rotate(225deg) scale(1);
+  transform: rotate(225deg) scale(1);
+}
+
+/* line 1231, ../scss/_page-style.scss */
+#prev:hover {
+  -webkit-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+}
+
+/* navigation */
+/* line 1237, ../scss/_page-style.scss */
+.navigation {
+  width: 100% !important;
+  padding: 0;
+  margin: 10px 0;
+  height: auto;
+  z-index: 10;
+  clear: both;
+}
+
+/* line 1246, ../scss/_page-style.scss */
+.navigation li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1252, ../scss/_page-style.scss */
+.navigation a {
+  display: block;
+  padding: 0;
+}
+
+/* line 1257, ../scss/_page-style.scss */
+.navigation span {
+  display: block;
+  width: 80px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100%;
+  opacity: 0.3;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+  /*-webkit-transform: scale(0.6);
+  transform: scale(0.6);*/
+}
+
+/* line 1270, ../scss/_page-style.scss */
+.navigation a:hover span {
+  opacity: 1;
+  /*-webkit-transform: scale(0.8);
+  transform: scale(0.8);*/
+}
+
+/* line 1276, ../scss/_page-style.scss */
+.navigation a.selected span {
+  opacity: 1;
+  /* -webkit-transform: scale(1);
+   transform: scale(1);*/
+}
+
+/* line 1281, ../scss/_page-style.scss */
+.navigation li a {
+  border-bottom: 4px solid transparent;
+}
+
+/* line 1284, ../scss/_page-style.scss */
+.navigation li a.selected {
+  border-bottom: 2px solid #b5845e;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1291, ../scss/_page-style.scss */
+  .navigation span {
+    width: 136px;
+    height: auto;
+    margin: 0;
+  }
+
+  /* line 1296, ../scss/_page-style.scss */
+  .navigation li {
+    margin: 0 5px;
+  }
+
+  /* line 1299, ../scss/_page-style.scss */
+  .navigation li a.selected {
+    border-bottom: 4px solid #b5845e;
+  }
+
+  /* line 1302, ../scss/_page-style.scss */
+  #prev {
+    left: 0;
+  }
+
+  /* line 1306, ../scss/_page-style.scss */
+  #next {
+    right: 0;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 1313, ../scss/_page-style.scss */
+  .navigation span {
+    width: 206px;
+    height: 104px;
+    margin: 0;
+  }
+
+  /* line 1318, ../scss/_page-style.scss */
+  .navigation li {
+    margin: 0 5px;
+  }
+
+  /* line 1321, ../scss/_page-style.scss */
+  .navigation li a.selected {
+    border-bottom: 4px solid #b5845e;
+  }
+
+  /* line 1324, ../scss/_page-style.scss */
+  #prev {
+    left: -16px;
+  }
+
+  /* line 1328, ../scss/_page-style.scss */
+  #next {
+    right: -16px;
+  }
+}
+/* line 1337, ../scss/_page-style.scss */
+.avatar-profile {
+  color: #b5845e;
+  text-align: center;
+  display: block !important;
+  margin-bottom: 25px;
+}
+
+/* line 1343, ../scss/_page-style.scss */
+.avatar-profile h5 {
+  font-size: 0.9em;
+  color: #b5845e;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 140%;
+}
+
+/* line 1350, ../scss/_page-style.scss */
+.avatar-profile small {
+  font-size: 0.75em;
+}
+
+/* line 1353, ../scss/_page-style.scss */
+.avatar-copy {
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+
+/* line 1358, ../scss/_page-style.scss */
+.avatar-copy p {
+  font-size: 1em;
+  color: #666666;
+  line-height: 170%;
+}
+
+/* line 1363, ../scss/_page-style.scss */
+.avatar-copy p strong {
+  font-weight: 700;
+}
+
+/* line 1366, ../scss/_page-style.scss */
+.avatar-copy .quotes {
+  background: url(../img/double-quotes.png) top center no-repeat;
+  width: 53px;
+  height: 39px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+/* line 1374, ../scss/_page-style.scss */
+.avatar-copy .quotes.rotated {
+  top: auto;
+  left: auto;
+  right: -10px;
+  bottom: -10px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1386, ../scss/_page-style.scss */
+  .avatar-profile {
+    max-width: 35%;
+    float: left;
+    margin-bottom: none;
+  }
+
+  /* line 1391, ../scss/_page-style.scss */
+  .avatar-copy {
+    float: left;
+    width: 63%;
+    margin-left: 2%;
+  }
+
+  /* line 1396, ../scss/_page-style.scss */
+  .avatar-copy p {
+    font-size: 1.2em;
+  }
+}
+/* ----------- screens equal 960 and above ---------- */
+@media only screen and (min-width: 960px) {
+  /* line 1403, ../scss/_page-style.scss */
+  .avatar-profile {
+    max-width: 226px;
+    float: left;
+    margin-bottom: none;
+  }
+
+  /* line 1408, ../scss/_page-style.scss */
+  .avatar-copy {
+    float: left;
+    width: 68%;
+    margin-left: 30px;
+  }
+}
+/* ----------- contact section ---------- */
+/* line 1418, ../scss/_page-style.scss */
+.social {
+  width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+/* line 1423, ../scss/_page-style.scss */
+.social .block {
+  width: 20%;
+  float: left;
+}
+
+/* line 1427, ../scss/_page-style.scss */
+a.circle {
+  background: #b5845e;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  display: table;
+  margin: 0 auto;
+}
+
+/* line 1437, ../scss/_page-style.scss */
+a.circle:hover {
+  background: #976946;
+}
+
+/* line 1440, ../scss/_page-style.scss */
+.circle .icon {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.2em;
+  color: white;
+}
+
+/* line 1447, ../scss/_page-style.scss */
+.contact-email {
+  text-align: center;
+}
+
+/* line 1450, ../scss/_page-style.scss */
+.mailto {
+  color: #b5845e;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+/* line 1456, ../scss/_page-style.scss */
+.hr-tiny {
+  background: #b5845e;
+  height: 4px;
+  display: block;
+  width: 200px;
+  margin: 0 auto 60px auto;
+}
+
+/* ----------- screens equal 568 and above ---------- */
+@media only screen and (min-width: 568px) {
+  /* line 1467, ../scss/_page-style.scss */
+  a.circle {
+    background: #b5845e;
+    width: 48px;
+    height: 48px;
+  }
+
+  /* line 1472, ../scss/_page-style.scss */
+  .circle .icon {
+    font-size: 1.8em;
+  }
+
+  /* line 1475, ../scss/_page-style.scss */
+  .mailto {
+    font-size: 3.5em;
+  }
+
+  /* line 1478, ../scss/_page-style.scss */
+  .social {
+    max-width: 100%;
+  }
+}
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1485, ../scss/_page-style.scss */
+  a.circle {
+    background: #b5845e;
+    width: 54px;
+    height: 54px;
+  }
+
+  /* line 1490, ../scss/_page-style.scss */
+  .circle .icon {
+    font-size: 2em;
+  }
+
+  /* line 1493, ../scss/_page-style.scss */
+  .mailto {
+    font-size: 4.5em;
+  }
+
+  /* line 1496, ../scss/_page-style.scss */
+  .social {
+    max-width: 640px;
+  }
+}
+/* ----------- work_together section ---------- */
+/* line 1503, ../scss/_page-style.scss */
+.form-wrap {
+  margin: 50px auto;
+  /*padding: 0 15px;*/
+}
+
+/* line 1507, ../scss/_page-style.scss */
+.form-wrap .row-push {
+  margin: 0;
+}
+
+/* line 1510, ../scss/_page-style.scss */
+.form-wrap label {
+  display: block;
+  margin-bottom: 5px;
+  color: #999999;
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+/* line 1517, ../scss/_page-style.scss */
+.form-wrap .input-wrap {
+  margin-bottom: 20px;
+}
+
+/* ----------- screens equal 568 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1523, ../scss/_page-style.scss */
+  .form-wrap .row-push {
+    margin: 0 -15px;
+  }
+}
+/* line 1528, ../scss/_page-style.scss */
+.footer {
+  background: url(../img/hero-background.jpg) top center no-repeat;
+  min-height: 156px;
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+
+/* line 1536, ../scss/_page-style.scss */
+.footer-wrap {
+  padding: 0 15px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 1541, ../scss/_page-style.scss */
+ul#footer-nav li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 1550, ../scss/_page-style.scss */
+ul#footer-nav li a {
+  padding: 6px 5px;
+  display: inline-block;
+}
+
+/* line 1554, ../scss/_page-style.scss */
+.footer-navigation small {
+  margin-left: 0;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  text-align: center;
+  display: block;
+}
+
+/* ----------- screens equal 768 and above ---------- */
+@media only screen and (min-width: 768px) {
+  /* line 1566, ../scss/_page-style.scss */
+  .footer-wrap {
+    padding: 30px;
+  }
+
+  /* line 1569, ../scss/_page-style.scss */
+  .footer-navigation small {
+    margin-left: 15px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+    display: inline;
+  }
+
+  /* line 1576, ../scss/_page-style.scss */
+  ul#footer-nav {
+    text-align: left;
+  }
+
+  /* line 1579, ../scss/_page-style.scss */
+  ul#footer-nav li a {
+    padding: 6px 15px;
+    display: inline-block;
+  }
+}
